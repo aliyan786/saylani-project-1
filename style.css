@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    color: #fff;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.sec1{
+    background-color: #404258;
+    height: 40em;
+}
+
+.main{
+    position: fixed;
+    z-index: 6;
+    display: flex;
+    justify-content: space-around;
+    background-color: #404258;
+    padding: 1.5%;
+    width: 100%;
+}
+
+.nav-container{
+    margin: 6px 0 0 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.logo{
+    display: inline-flex;
+}
+
+.logo-img{
+    width: 23px;
+    height: 23px;
+    margin: 5px 3px 0 0;
+}
+
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+}
+
+.nav ul li a:hover{
+    color: rgb(0, 106, 255);
+}
+
+.icons{
+    display: flex;
+    margin: 1%;
+
+}
+
+.icon{
+    margin: 2px 26px 0 0;
+}
+
+ .home{
+    top: 83px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+ 
+ } 
+
+
+.name{
+    width: 50%;
+    margin: 50px 0 0 0;
+    display: inline-block;
+}
+.name h3{
+    font-size: 40px;
+    font-weight:lighter ;
+    
+}
+.name h2{
+    font-size: 70px;
+    position: relative;
+    z-index: 1;
+}
+
+.name span{
+    border-bottom: 4px solid orange;
+}
+
+
+.text h4{
+    margin: 15px 0 0 0;
+    font-weight: 500;
+    width: 40%;
+    font-size: 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.solo{
+    top: -14%;
+    width: 28%; 
+    position: absolute;
+}
+
+.circle{
+    width: 500px;
+    height: 500px;
+    background-color: #282a3a;
+    border-radius: 100%;
+    position: absolute;
+    margin: 0 0 0 90px;
+}
+
+.mpic{
+    height: 20%;
+    position: relative;
+    z-index: 2;
+}
+
+
+.side-text{
+    float: right;
+    width: 14%;
+    margin: 40px 0 0 0;
+}
+
+.side-text h4{
+    font-size: 17px;
+}
+
+.side-text p{
+    font-size: 24px;
+    width: 200px;
+    position: relative;
+    z-index: 2;
+}
+
+.text-a{
+    width: 100px;
+    margin: 15px 0 15px 0;
+}
+
+.side-text h5{
+    position: relative;
+    z-index: 2;
+    color: orange;
+    display: inline;
+}
+
+.apic{
+    float: right;
+}
+
+.ficon{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    margin: 1%;
+}
+
+.fi{
+  height: 20px;
+  background-color: #4c4b59;
+  border-radius: 50px;
+  margin: 2px 14px 0 0;
+  padding: 3px;
+}
+
+.tag{
+    padding: 15px;
+    top: 45%;
+    background-color: #3C415C;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 4;
+    position: relative;
+    height: 10%;
+    margin: 0 20px 0 20px;
+}
+
+#dtag{
+    border: 1px solid black;
+    z-index: 5;
+    width: 14%;
+    background-color: #282a3a;
+}
+
+.dtag1{
+display: flex;
+justify-content: center;
+}
+
+.tp{
+    font-size: 25px;
+    margin: 13px 0 0 0;
+}
+
+.timg1{
+    height: 40px;
+    width: 60px;
+    margin: 10px 0 0 0;
+}
+
+.timg2{
+    height: 40px;
+    width: 128px;
+    margin: 11px;
+}
+
+.dtag3{
+    display: flex;
+    justify-content: center;
+}
+
+.tp2{
+    font-size: 25px;
+    margin: 13px 0 0 0;
+
+}
+
+.timg3{
+    height: 22px;
+    width: 22px;
+    margin: 18px 0 0 0;
+    background-color: #0F6292;
+}
+
+.dtag4{
+    display: flex;
+    justify-content: center;
+}
+
+.timg4{
+    height: 30px;
+    width: 30px;
+    margin: 17px 0 0 0;
+}
+
+.tp3{
+    font-size: 25px;
+    margin: 13px 0 0 0;
+
+}
+
+.sec2{
+    height: 58em;
+    background-color: #282a3a;
+}
+
+.services{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ltext{
+    width: 24em;
+    height: 37em;
+    margin: 50px 0 0 25px;
+}
+
+.ltext p{
+    margin: 14px 0 14px 0;
+}
+
+.ht{
+    font-size: 41px;
+    margin: 70px 0 20px 0;
+}
+
+.th{
+    position: relative;
+    height: 225px;
+    margin: 55px 0 0 0;
+}
+
+.th1{
+    font-size: 25px;
+    position:absolute;
+    top: 8px;
+    left: 16px;
+    color: orange;
+}
+   
+.th2{
+    font-size: 25px;
+ position:absolute;
+ top: 8px;
+ right: 16px;
+ color: orange;
+}
+
+.th3{
+    font-size: 25px;
+    position:absolute;
+    bottom: 8px;
+    left: 16px;
+    color: orange;
+}
+
+.th4{
+    font-size: 25px;
+    position:absolute;
+    bottom: 8px;
+    right: 16px;
+    color: orange;
+}
+
+.thp{
+    font-size: 17px;
+}
+   
+
+.colmn{
+    margin: 80px 0 0 0;
+    height: 37em;
+    width: 32em;
+    display: flex;
+    flex-direction: column;
+}
+
+#column{
+    display: flex;
+    margin: 30px 60px 0px 0;
+    border-bottom:3px solid #404258 ;
+}
+
+.cimg{
+    height: 140px;
+    width: 180px;
+    margin: 0 20px 25px 0;
+}
+
+.ctext{
+    margin: 55px 0 0 0;
+    font-size: 22px;
+}
+
+.tb{
+    display: flex;
+    flex-direction: column;
+}
+
+.carrow1{
+    margin: 55px 0 0 92px;
+    height: 30px;
+    width: 25px;
+}
+
+.carrow2{
+    margin: 55px 0 0 50px;
+    height: 30px;
+    width: 25px;
+}
+
+.carrow3{
+    margin: 55px 0 0 30px;
+    height: 30px;
+    width: 25px;
+}
+
+.container{
+    margin: 40px 0 0 0;
+    height: 200px;
+    display: flex;
+}
+
+#con{
+    height: 210px;
+    width: 260px;
+    background-color: #4c4b59;
+}
+
+.cicon{
+    margin: 30px 0px 0 20px;
+    border-radius: 50%;
+    background-color: #4c4b59;
+    height: 30px;
+    width: 30px;
+}
+
+.ctitle{
+    margin: 15px;
+}
+
+
+
+.con1{
+    margin: 0px 30px 0 130px
+}
+
+.con2{
+    margin: 0px 30px 0 0px
+}
+
+.con3{
+    
+    margin: 0px 100px 0 0px;
+}
+
+.cdiscription{
+    margin: 0 0 0 15px ;
+    font-size: 14px;
+}
